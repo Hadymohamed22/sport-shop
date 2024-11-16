@@ -1,0 +1,426 @@
+[
+    {
+        "id": 1,
+        "name": "Sports Shoes",
+        "category": "Shoes",
+        "price": 300,
+        "description": "Comfortable and lightweight sports shoes suitable for all types of sports activities",
+        "image": "https://f.nooncdn.com/p/pzsku/Z00BD2B24226992C15507Z/45/_/1694266113/cc0d6778-597b-434d-bc55-31c1fe7f8065.jpg?format=avif&width=800",
+        "sizes": [
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "colors": [
+            "White",
+            "Blue",
+            "Black"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sports T-shirt",
+        "category": "Sportswear",
+        "price": 150,
+        "description": "Sports T-shirt made of moisture-wicking material, suitable for running and training",
+        "image": "https://f.nooncdn.com/p/v1622993717/N47514828A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "White",
+            "Black",
+            "Blue"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Football",
+        "category": "Equipment",
+        "price": 100,
+        "description": "High-quality football for training and matches",
+        "image": "https://f.nooncdn.com/p/pzsku/Z4AF092BC99A48290D7CBZ/45/_/1720017675/787deb91-5cb9-4dc1-a6bc-25245e630ce5.jpg?format=avif&width=800",
+        "sizes": [
+            "Size 5"
+        ],
+        "colors": [
+            "White",
+            "Green",
+            "Red"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Yoga Mat",
+        "category": "Equipment",
+        "price": 75,
+        "description": "Non-slip yoga mat for comfort and stability during exercise",
+        "image": "https://f.nooncdn.com/p/pzsku/ZB5A07723FB1D63044890Z/45/_/1714476130/16a948a6-5e3c-4a83-80c7-8b1ea0ad0eaa.jpg?format=avif&width=800",
+        "sizes": [
+            "Length 180 cm",
+            "Width 60 cm"
+        ],
+        "colors": [
+            "Purple",
+            "Blue",
+            "Black"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Bicycle",
+        "category": "Equipment",
+        "price": 1200,
+        "description": "Durable and strong bicycle with a range of gear options",
+        "image": "https://f.nooncdn.com/p/pzsku/Z0C8B78AB999FCA826C9FZ/45/_/1718380600/820fe6c9-f20b-4352-90cd-170120c02b05.jpg?format=avif&width=800",
+        "sizes": [
+            "Size 18",
+            "Size 20"
+        ],
+        "colors": [
+            "Black",
+            "Red",
+            "Blue"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Weight Training Set",
+        "category": "Equipment",
+        "price": 200,
+        "description": "Weight training set including adjustable dumbbells and weights",
+        "image": "https://f.nooncdn.com/p/pzsku/ZB7BEC8B5D4DDE3EAFB4FZ/45/_/1718897740/1004ff09-ed77-4299-98ac-35ea7c3c4be2.jpg?format=avif&width=800",
+        "sizes": [
+            "1 kg",
+            "2 kg",
+            "5 kg"
+        ],
+        "colors": [
+            "Black",
+            "Silver"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Sports Shorts",
+        "category": "Sportswear",
+        "price": 80,
+        "description": "Comfortable sports shorts for daily workouts, providing freedom of movement",
+        "image": "https://f.nooncdn.com/p/pzsku/Z9CD17FD4D2AA535A4B88Z/45/_/1722509509/6953bb49-180c-4c1c-b279-807bf0866d17.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Brown",
+            "White",
+            "Black"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Training T-shirt",
+        "category": "Sportswear",
+        "price": 120,
+        "description": "Running T-shirt with ventilation technology to prevent sweat buildup",
+        "image": "https://f.nooncdn.com/p/pzsku/Z274881C58D165038CC3FZ/45/_/1725956466/202c21f7-2443-49e4-877e-178c1206b0b9.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Green",
+            "Yellow",
+            "White"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Boxing Gloves",
+        "category": "Equipment",
+        "price": 150,
+        "description": "Durable boxing gloves for training and sparring",
+        "image": "https://f.nooncdn.com/p/v1670330663/N52252362A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Red",
+            "Black",
+            "Blue"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Tennis Racket",
+        "category": "Equipment",
+        "price": 250,
+        "description": "High-quality tennis racket for beginners and professionals",
+        "image": "https://f.nooncdn.com/p/pzsku/ZD6A0C1B4D8EA4E3AD5DAZ/45/_/1714390701/d641fbb4-27c2-465c-9316-cad5963221c6.jpg?format=avif&width=800",
+        "sizes": [
+            "Standard"
+        ],
+        "colors": [
+            "Yellow",
+            "Red"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Basketball",
+        "category": "Equipment",
+        "price": 120,
+        "description": "Official size basketball for indoor and outdoor use",
+        "image": "https://f.nooncdn.com/p/pzsku/ZAA264AC4A62BF3F41416Z/45/_/1723106746/78df8bea-c252-45b9-93cb-1e8c9cc39a3e.jpg?format=avif&width=800",
+        "sizes": [
+            "Size 7"
+        ],
+        "colors": [
+            "Orange"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Swimming Goggles",
+        "category": "Equipment",
+        "price": 25,
+        "description": "Comfortable swimming goggles with anti-fog and UV protection",
+        "image": "https://f.nooncdn.com/p/pzsku/Z0B5F6482B2315F11D804Z/45/_/1721648676/519370f4-61df-4191-9fc0-a5b1e5aa335e.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Black",
+            "Blue"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Football Socks",
+        "category": "Socks",
+        "price": 20,
+        "description": "Breathable and cushioned football socks for comfort and performance",
+        "image": "https://f.nooncdn.com/p/pzsku/ZD157F3E0FD41A45C485DZ/45/_/1675246531/03b7353d-cb49-4094-8ffb-edb826518ed0.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "colors": [
+            "White",
+            "Black",
+            "Gray"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Gym Bag",
+        "category": "Accessories",
+        "price": 50,
+        "description": "Spacious gym bag for carrying workout gear",
+        "image": "https://f.nooncdn.com/p/pzsku/Z85BC8CD67DB5DAFBCC6AZ/45/_/1731244613/232e0bd4-cf4b-48ce-b83c-cf7c763a3684.jpg?format=avif&width=800",
+        "sizes": [
+            "Medium",
+            "Large"
+        ],
+        "colors": [
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Foam Roller",
+        "category": "Equipment",
+        "price": 40,
+        "description": "High-density foam roller for muscle recovery and flexibility",
+        "image": "https://f.nooncdn.com/p/pzsku/ZE89436B21F9D8907778DZ/45/_/1703514094/af12ada4-10c2-4ea0-9df9-5b06f9869bc2.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Blue",
+            "Black"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Jogging Pants",
+        "category": "Sportswear",
+        "price": 60,
+        "description": "Comfortable jogging pants suitable for running or casual wear",
+        "image": "https://f.nooncdn.com/p/pzsku/ZA1A2DA9AA904B690E291Z/45/_/1716213401/85a36ed8-9e13-4c48-b53e-59b9a7a89433.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Running Shoes",
+        "category": "Shoes",
+        "price": 250,
+        "description": "Lightweight running shoes designed for long-distance runs",
+        "image": "https://f.nooncdn.com/p/pzsku/Z23ED34AFEC302A35CC07Z/45/_/1680604434/9527f5aa-d2fc-4e6f-98b1-c05bd4d9d2df.jpg?format=avif&width=800",
+        "sizes": [
+            "40",
+            "41",
+            "42",
+            "43"
+        ],
+        "colors": [
+            "Black",
+            "Blue"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Cycling Helmet",
+        "category": "Equipment",
+        "price": 100,
+        "description": "Protective helmet for cycling with adjustable straps and ventilation",
+        "image": "https://f.nooncdn.com/p/pzsku/Z8AE5AA13C25F94A3F0CBZ/45/_/1715004589/de7f2bda-e640-425f-83c0-2b19f5e2dfc0.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "colors": [
+            "Red",
+            "White"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Kettlebell",
+        "category": "Equipment",
+        "price": 80,
+        "description": "Durable kettlebell for strength training and conditioning",
+        "image": "https://f.nooncdn.com/p/v1639556363/N52165301A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "5 kg",
+            "10 kg",
+            "15 kg"
+        ],
+        "colors": [
+            "Blue",
+            "Silver"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Exercise Ball",
+        "category": "Equipment",
+        "price": 45,
+        "description": "Inflatable exercise ball for strengthening core muscles",
+        "image": "https://f.nooncdn.com/p/v1597838722/N39802894A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "45 cm",
+            "55 cm",
+            "65 cm"
+        ],
+        "colors": [
+            "Pink",
+            "Blue",
+            "Black"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Sports Cap",
+        "category": "Sportswear",
+        "price": 25,
+        "description": "Comfortable sports cap for sun protection during outdoor activities",
+        "image": "https://f.nooncdn.com/p/pzsku/Z5002A0D5FBF746A9284DZ/45/_/1654875499/4622d9a3-1909-4091-99ef-35464371f23b.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Black",
+            "White",
+            "Blue"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Sports Watch",
+        "category": "Accessories",
+        "price": 150,
+        "description": "Multi-functional sports watch with heart rate monitor and GPS",
+        "image": "https://f.nooncdn.com/p/pnsku/N70108561V/45/_/1725953614/e90e98f9-9ab3-47c3-9bb6-71c7d4a1e7db.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Black",
+            "Red",
+            "Blue"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Tennis Balls",
+        "category": "Equipment",
+        "price": 30,
+        "description": "Durable tennis balls for practice and matches",
+        "image": "https://f.nooncdn.com/p/pzsku/Z86FD5B5FF1D0448B076EZ/45/_/1709130285/c0d2ea27-05cf-4956-bf69-a60c21f7cdb0.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Yellow"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Resistance Bands",
+        "category": "Equipment",
+        "price": 20,
+        "description": "Set of resistance bands for strength training and stretching",
+        "image": "https://f.nooncdn.com/p/v1666350851/N24042924A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "One size"
+        ],
+        "colors": [
+            "Blue",
+            "Green",
+            "Red",
+            "Black",
+            "Yellow"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Swimming Fins",
+        "category": "Equipment",
+        "price": 50,
+        "description": "Swimming fins for improved speed and technique in the water",
+        "image": "https://f.nooncdn.com/p/v1675076905/N46434295A_1.jpg?format=avif&width=800",
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "colors": [
+            "Blue",
+            "Yellow"
+        ]
+    }
+]

@@ -1,0 +1,518 @@
+$main-color: #003366;
+$second-color: #ff6600;
+$first-bg: #f2f2f2;
+$fast-transition: 0.3s;
+$slow-transition: 1s;
+
+.main-color {
+  color: $main-color !important;
+}
+.main-bg {
+  background-color: $main-color !important;
+}
+.second-color {
+  color: $second-color !important;
+}
+.second-bg {
+  background-color: $second-color !important;
+}
+.first-bg {
+  background-color: $first-bg;
+}
+.fast-transition {
+  transition: $fast-transition !important;
+}
+.slow-transition {
+  transition: $slow-transition !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $main-color;
+  transition: $fast-transition;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #002142;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  nav {
+    z-index: 9999;
+    top: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+    backdrop-filter: blur(20px);
+    width: 85%;
+    border-radius: 15px;
+    box-shadow: 0 0 20px -5px black inset, 0 0 20px -10px white;
+    .like-icon,
+    .cart-icon {
+      span {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        font-size: 10px;
+        top: -9px;
+        right: -8px;
+      }
+      .products-in-cart,
+      .likes-products {
+        background-color: transparent;
+        top: 110%;
+        right: 20px;
+        transform: rotateY(90deg);
+        visibility: hidden;
+        height: 300px;
+        overflow-y: auto;
+        .product {
+          background-color: rgba(0, 0, 0, 0.333);
+          box-shadow: 1px 1px 30px -10px rgba(255, 255, 255, 0.597);
+          width: 300px;
+          img {
+            box-shadow: 1px 1px 20px -10px rgba(255, 255, 255, 0.597);
+          }
+        }
+      }
+      &:hover {
+        .products-in-cart,
+        .likes-products {
+          visibility: visible;
+          transform: rotateX(0deg);
+        }
+      }
+    }
+    .navbar-toggler {
+      border: none;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .main-btn {
+    width: fit-content !important;
+    &:hover {
+      background-color: #e55d03 !important;
+    }
+  }
+  .image-box {
+    position: relative;
+    top: 0px;
+    animation: animate-photo-in-hero 4s linear 0s infinite;
+    .displayed-img {
+      filter: brightness(0.7) drop-shadow(8px 16px 20px #e55d035f);
+    }
+  }
+  .hero {
+    position: relative;
+    background-image: url("./assets/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    .main-text {
+      font-size: 50px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.801);
+    }
+  }
+  section.advantages-section {
+    .advan-box {
+      box-shadow: 0 0 30px -20px inset;
+      .icon {
+        width: 50px;
+        height: 50px;
+        box-shadow: 0 0 20px -10px white inset, 0 0 20px -10px;
+      }
+      .advan-text {
+        font-size: 18px;
+      }
+    }
+  }
+  .section-header {
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0.496));
+  }
+  .best-sale-section {
+    .best-product {
+      box-shadow: 1px 1px 10px #ff66006f;
+      .best-product-title {
+        font-size: clamp(0.75rem, 20px, 1.5rem);
+      }
+      .actions-price {
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+  }
+  .actions {
+    .buy,
+    .like {
+      width: 35px;
+      height: 35px;
+      cursor: pointer;
+      &:hover {
+        background-color: #d8d8d8 !important;
+      }
+    }
+    .buy {
+      &.active {
+        background-color: $main-color !important;
+        svg {
+          color: white;
+        }
+      }
+    }
+    .like {
+      &.active {
+        background-color: #fa4032 !important;
+        svg {
+          color: white;
+        }
+      }
+    }
+  }
+
+  section.shoes-section {
+    background: url("./assets/background.jpg");
+    background-size: 100% 100%;
+    height: 400px;
+    .col-lg-5 {
+      div img {
+        filter: drop-shadow(-5px 5px 10px rgba(255, 255, 255, 0.359));
+      }
+    }
+    .col-lg-7 {
+      .content {
+        button {
+          width: fit-content;
+          &:hover {
+            background-color: white !important;
+            color: $main-color !important;
+          }
+        }
+        h1 {
+          font-size: 60px;
+        }
+        .images {
+          width: fit-content;
+          div {
+            width: 70px;
+            height: 70px;
+            background-color: #0033666a;
+            cursor: pointer;
+            &:hover {
+              background-color: rgba(235, 233, 233, 0.507);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .filter {
+    width: 20%;
+    .filter-icon {
+      top: 30px;
+      cursor: pointer;
+    }
+    .types {
+      .type {
+        cursor: pointer;
+        &:hover,
+        &.active {
+          background-color: $main-color !important;
+          color: white !important;
+        }
+      }
+    }
+  }
+  section.products {
+    .filter-products {
+      .products {
+        width: 80%;
+      }
+    }
+  }
+  .product {
+    .actions {
+      right: -40px;
+      top: 20px;
+    }
+    &:hover {
+      .actions {
+        right: 10px;
+        top: 20px;
+      }
+    }
+  }
+  .about-content {
+    .section-header {
+      color: $second-color !important;
+      filter: drop-shadow(5px 5px 3px white);
+      position: relative;
+      z-index: 3;
+    }
+    .content {
+      div:nth-child(even) {
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0),
+          rgba(255, 102, 0, 0.373),
+          rgba(255, 255, 255, 0)
+        );
+      }
+      div:nth-child(odd) {
+        background: linear-gradient(
+          to right,
+          rgba(255, 255, 255, 0),
+          rgb(0, 51, 102, 0.373),
+          rgba(255, 255, 255, 0)
+        );
+      }
+    }
+  }
+  footer {
+    ul {
+      li {
+        &:hover {
+          padding-left: 10px !important;
+          color: white !important;
+          svg {
+            color: white !important;
+          }
+          a {
+            color: white !important;
+          }
+        }
+      }
+    }
+    .social-links {
+      div {
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: black;
+        &.insta-icon {
+          &:hover {
+            background: linear-gradient(
+              45deg,
+              #f09433,
+              #e6683c,
+              #dc2743,
+              #cc2366,
+              #bc1888,
+              #9e278f
+            );
+          }
+        }
+        &.face-icon {
+          &:hover {
+            background-color: #1877f2;
+          }
+        }
+        &.twitter-icon {
+          &:hover {
+            background-color: #1da1f2;
+          }
+        }
+        &.xtwitter-icon {
+          &:hover {
+            background-color: white;
+            svg {
+              color: black !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .about-page,
+  .contact-page {
+    .row {
+      justify-content: center;
+      .main-text,
+      .sub-text {
+        text-align: center !important;
+      }
+      .sub-text {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      a {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%) !important;
+      }
+    }
+  }
+}
+.contact-form {
+  form {
+    width: 400px;
+    background-color: #00336637;
+    box-shadow: 1px 1px 20px -10px rgb(0, 0, 0, 0.5);
+    &::before {
+      content: "";
+      position: absolute;
+      top: -138px;
+      left: -114px;
+      width: 156%;
+      height: 156%;
+      background: linear-gradient(
+        135deg,
+        #003366 0%,
+        #ff6600 50%,
+        #f2f2f2 100%
+      );
+      z-index: -1;
+      animation: contact-form 10s linear 0s infinite;
+    }
+  }
+}
+.direct-contact-info {
+  .box {
+    background-color: #f0953382;
+    height: 230px;
+    box-shadow: 1px 1px 20px -10px rgb(0, 0, 0, 0.3);
+    .icon {
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      box-shadow: 0 0 20px -10px inset;
+      color: $main-color;
+    }
+  }
+}
+
+@keyframes animate-photo-in-hero {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 30px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+
+@media (max-width: 992px) {
+  section.shoes-section {
+    height: fit-content !important;
+    padding: 30px 0;
+    .container {
+      .row {
+        .col-lg-7 {
+          .content {
+            button {
+              width: 100%;
+              border-radius: 30px !important;
+            }
+
+            .images,
+            p {
+              position: relative;
+              left: 50%;
+              transform: translate(-50%);
+            }
+          }
+        }
+      }
+    }
+  }
+  .products {
+    width: 100% !important;
+  }
+  .filter {
+    position: absolute !important;
+    background-color: $main-color !important;
+    z-index: 5;
+    left: -322px;
+    border: none !important;
+    width: 300px !important;
+    padding: 20px !important;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    h2 {
+      background-color: white !important;
+      color: $main-color !important;
+      border-radius: 10px;
+    }
+    h5 {
+      color: white !important;
+    }
+    .type {
+      box-shadow: 1px 1px 20px -10px white;
+    }
+    &.open {
+      left: -12px;
+    }
+    .filter-icon {
+      top: 20px;
+      display: block !important;
+    }
+    .apply-filter {
+      box-shadow: 1px 1px 20px -10px white;
+    }
+  }
+  .cart-like {
+    order: 2;
+  }
+  .navbar-toggler {
+    order: 3;
+  }
+  .navbar-collapse {
+    order: 4;
+  }
+  .hero-text {
+    p,
+    a {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%) !important;
+    }
+  }
+  .hero-image {
+    display: none !important;
+  }
+  .sizes,
+  .colors {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .contact-form {
+    form {
+      width: 90%;
+    }
+  }
+}
+
+@keyframes contact-form {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
